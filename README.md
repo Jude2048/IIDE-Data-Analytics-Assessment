@@ -13,12 +13,12 @@ The provided dataset consisted of denormalized, flat data. Loading this directly
 
 To ensure a scalable and optimized system as per the job description, I engineered a **Star Schema** using Power Query. I isolated unique dimensions (`Dim_Candidate`, `Dim_Job`) to act as the single source of truth, and separated transactional events (`Fact_Application`, `Fact_Interview`). 
 
-![Star Schema]()
+![Star Schema](https://github.com/Jude2048/IIDE-Data-Analytics-Assessment/blob/main/Star%20Schema%20Model.png)
 
 ## Executive Dashboard
 The dashboard was structured specifically for executive scannability, anchoring high-level KPIs at the top, followed by pipeline bottleneck analysis and dimensional drill-downs.
 
-![Dashboard Preview]()
+![Dashboard Preview](https://github.com/Jude2048/IIDE-Data-Analytics-Assessment/blob/main/Placement%20Analytics%20Dashboard%202026.png)
 
 ## Key Executive Insights
 Based on the dashboard analytics, here are the strategic recommendations for the Core Management Team:
